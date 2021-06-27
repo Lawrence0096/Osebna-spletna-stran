@@ -178,12 +178,12 @@
 
 
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
     #n1 {
         margin-top: 300px;
     }
 }
-
+*/
 
 .port-p h1{
     margin-top: 20px;
@@ -800,4 +800,19 @@
 
 #aa2{
     color:rgb(0, 162, 255);
+}
+
+#m-profile{
+    height: 0px;
+    width: 0px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    #m-profile{
+        margin-top: 300px;
+        height: 20px;
+        width: 40px;
+        border-radius: 50%;
+    }
 }
