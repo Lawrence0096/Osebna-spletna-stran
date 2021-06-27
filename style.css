@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 600px){
     .g-image{
-        background-image: url(/source/2.jpg);
+        background-image: url(./source/2.jpg);
         width: 100%;
         
     }
@@ -87,9 +87,9 @@
 
 @media screen and (max-width: 600px) {
     #headT{
-        font-size: 30px;
+        font-size: 25px;
         color: white;
-
+        margin-left: 5%;
     }
 }
 
@@ -739,7 +739,8 @@
         display: block;
         position: relative;
         float: right;   
-        margin-left: 115px;
+        margin-right: 5%;
+        margin-left: 50px;
         color: white;
         font-size: 24px;
         cursor: pointer;
